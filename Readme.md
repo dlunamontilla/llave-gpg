@@ -8,7 +8,7 @@ Si estás usando **Linux**, asegúrese de tener instalado `xclip`:
 sudo apt install xclip
 ```
 
-## ¿Cómo envío commits a GitHub verificados?.
+## ¿Cómo envío commits a GitHub verificados?
 
 Para empezar, debes crear una llave `GPG` con el siguiente comando:
 

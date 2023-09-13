@@ -18,13 +18,19 @@ gpg --gen-key
 
 Y luego, copie la llave GPG pública al portapapeles usando el siguiente comando en función del sistema operativo que estés utilizando.
 
-###  Linux
+### En Linux
 
 ```zsh
 gpg --armor --export <tu-id-de-llave-gpg> | xclip -selection clipboard
 ```
 
-### Windows:
+> El identificaador de la llave pública GPG debe verse así:
+> ```zsh
+> 
+> gpg --armor --export 290444824C41E17433B08638A665DDAF2B7E77E6 | xclip -selection clipboard
+> ```
+
+### En Windows:
 
 ```zsh
 gpg --armor --export <tu-id-de-llave-gpg> | clip
